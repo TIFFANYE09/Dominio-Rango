@@ -7,28 +7,70 @@
     body {
       font-family: Arial, sans-serif;
       padding: 20px;
-      background-color: #f3f3f3;
-    }
-    h1 {
-      color: #2c3e50;
+      background-color: #f0f2f5;
+      color: #333;
     }
     .contenedor {
-      background: white;
-      padding: 15px;
+      background-color: #ffffff;
+      padding: 20px;
       border-radius: 10px;
-      box-shadow: 0 0 10px #ccc;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .ejemplo {
+      background-color: #eaf4ff;
+      padding: 10px;
+      border-left: 5px solid #3498db;
+      margin: 15px 0;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #777;
     }
   </style>
 </head>
 <body>
   <div class="contenedor">
-    <h1>Dominio y Rango</h1>
-    <p><strong>Dominio:</strong> Es el conjunto de valores de entrada (x) que puede tomar una función.</p>
-    <p><strong>Rango:</strong> Es el conjunto de valores de salida (y) que puede tener una función.</p>
+    <h1>Dominio y Rango de una Función</h1>
 
-    <h3>Ejemplo:</h3>
-    <p>Para la función f(x) = x², el dominio son todos los números reales y el rango son los valores mayores o iguales a 0.</p>
+    <p><strong>Dominio:</strong> El dominio de una función es el conjunto de todos los valores posibles que puede tomar la variable independiente (normalmente x) sin que la función tenga problemas (como divisiones por cero o raíces cuadradas de números negativos).</p>
+
+    <p><strong>Rango:</strong> El rango de una función es el conjunto de todos los valores que puede tomar la variable dependiente (normalmente y o f(x)), es decir, los resultados que se obtienen al reemplazar el dominio en la función.</p>
+
+    <h2>¿Por qué es importante?</h2>
+    <p>Conocer el dominio y el rango permite entender mejor el comportamiento de una función, especialmente al representarla gráficamente. Es útil en matemáticas, física, programación, economía y más.</p>
+
+    <h2>Ejemplo sencillo</h2>
+    <div class="ejemplo">
+      <p><strong>Función:</strong> f(x) = x²</p>
+      <p><strong>Dominio:</strong> Todos los números reales (ℝ), porque cualquier número puede elevarse al cuadrado.</p>
+      <p><strong>Rango:</strong> Todos los números reales positivos y el 0, es decir: y ≥ 0.</p>
+    </div>
+
+    <h2>Gráficamente</h2>
+    <p>La gráfica de f(x) = x² es una parábola que se abre hacia arriba. Esta forma te ayuda a ver que el resultado (el rango) nunca baja de 0.</p>
+
+    <h2>Otro ejemplo</h2>
+    <div class="ejemplo">
+      <p><strong>Función:</strong> f(x) = 1 / (x - 2)</p>
+      <p><strong>Dominio:</strong> Todos los números reales excepto x = 2 (porque no se puede dividir entre 0).</p>
+      <p><strong>Rango:</strong> Todos los valores reales excepto y = 0.</p>
+    </div>
+
+    <footer>
+      Página creada como proyecto para el deber de matemáticas ✨<br>
+      Hecho con HTML y mucho esfuerzo 💻
+    </footer>
   </div>
 </body>
 </html>
-
